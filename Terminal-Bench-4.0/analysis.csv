@@ -1,0 +1,23 @@
+model,agent,effort,resolution_rate,cost,cost_per_resolution_point,value_rank,capability_rank
+GLM-5.3-Flash,Claude Code,none,35.8000,100.0000,2.7933,1,12
+GPT-6 Luna,Codex,max,16.4000,100.0000,6.0976,2,19
+GPT-6.1 Sol,Codex,max,58.2000,600.0000,10.3093,3,3
+GPT-5.6 Luna,Codex,max,17.3000,300.0000,17.3410,4,18
+GPT-6 Sol,Codex,max,49.4000,1500.0000,30.3644,5,7
+GPT-6 Astra,Codex,max,58.2000,3300.0000,56.7010,6,3
+GLM-5.3,Claude Code,max,41.8000,2700.0000,64.5933,7,9
+GPT-5.6 Sol,Codex,max,37.3000,2500.0000,67.0241,8,11
+Opus 5.5,Claude Code,max,64.8000,4700.0000,72.5309,9,1
+GPT-5.6 Terra,Codex,max,21.5000,1700.0000,79.0698,10,15
+Gemini 3.8 Flash,mini-SWE-agent,high,19.1000,1800.0000,94.2408,11,17
+Grok 4.7,Grok Build,xhigh,37.6000,3700.0000,98.4043,12,10
+Fable 5.1,Claude Code,max,57.9000,6200.0000,107.0812,13,5
+Opus 5,Claude Code,xhigh,53.9000,6100.0000,113.1725,14,6
+Gemini 3.7 Flash,mini-SWE-agent,high,11.2000,1300.0000,116.0714,15,22
+Sonnet 5.5,Claude Code,max,61.8000,7300.0000,118.1230,16,2
+Fable 5,Claude Code,max,44.5000,7300.0000,164.0449,17,8
+Grok 4.5,Grok Build,high,12.4000,2100.0000,169.3548,18,20
+Qwen3.8-Max-0902,Claude Code,max,27.0000,4600.0000,170.3704,19,13
+Grok 4.6,Grok Build,high,20.3000,3600.0000,177.3399,20,16
+Opus 4.8,Claude Code,max,23.6000,6500.0000,275.4237,21,14
+Sonnet 5,Claude Code,max,12.4000,9600.0000,774.1935,22,20
