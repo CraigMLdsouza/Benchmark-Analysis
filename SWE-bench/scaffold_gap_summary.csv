@@ -1,0 +1,2 @@
+benchmark,model,scaffolds_compared,lowest_scaffold,lowest_resolved_pct,lowest_tasks_solved,highest_scaffold,highest_resolved_pct,highest_tasks_solved,spread_percentage_points,difference_tasks_solved,interpretation
+SWE-bench Verified,Claude 3.5 Sonnet,6,SWE-agent (20240620),33.6,168,PatchPilot,53.6,268,20.0,100,Published system results show a 20.0 percentage-point range; this is observational and not a controlled causal estimate of scaffold effect.

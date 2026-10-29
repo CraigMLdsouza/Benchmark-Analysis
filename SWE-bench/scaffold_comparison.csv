@@ -1,0 +1,7 @@
+benchmark,split,model,scaffold,resolved_pct,resolved_tasks,total_tasks,source_url
+SWE-bench Verified,Verified,Claude 3.5 Sonnet,SWE-agent (20240620),33.6,168,500,https://www.preprints.org/frontend/manuscript/2ac614cb5a2d08573aea6cd8fd2f1675/download_pub
+SWE-bench Verified,Verified,Claude 3.5 Sonnet,SWE-agent + tools,49.0,245,500,https://www.preprints.org/frontend/manuscript/2ac614cb5a2d08573aea6cd8fd2f1675/download_pub
+SWE-bench Verified,Verified,Claude 3.5 Sonnet,Agentless,50.8,254,500,https://www.preprints.org/frontend/manuscript/2ac614cb5a2d08573aea6cd8fd2f1675/download_pub
+SWE-bench Verified,Verified,Claude 3.5 Sonnet,AutoCodeRover,51.8,259,500,https://www.preprints.org/frontend/manuscript/2ac614cb5a2d08573aea6cd8fd2f1675/download_pub
+SWE-bench Verified,Verified,Claude 3.5 Sonnet,OpenHands + CodeAct 2.1,53.0,265,500,https://www.preprints.org/frontend/manuscript/2ac614cb5a2d08573aea6cd8fd2f1675/download_pub
+SWE-bench Verified,Verified,Claude 3.5 Sonnet,PatchPilot,53.6,268,500,https://www.preprints.org/frontend/manuscript/2ac614cb5a2d08573aea6cd8fd2f1675/download_pub
