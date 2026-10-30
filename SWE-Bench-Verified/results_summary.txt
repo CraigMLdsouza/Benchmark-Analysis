@@ -1,0 +1,57 @@
+SWE-bench Verified | 45 common tasks | 19 matched models
+Cost per solve = total spend, including failed runs, / tasks solved
+
+              model  solved  resolve_rate_pct  ci95_lo_pct  ci95_hi_pct  total_cost_usd  cost_per_solve_usd  avg_successful_run_cost_usd  avg_failed_run_cost_usd  failed_run_cost_share_pct
+ qwen3.8-flash-next      37            82.222       68.670       90.706          15.465               0.418                        0.353                    0.298                     15.429
+ claude-opus-5.5-cc      35            77.778       63.730       87.455          44.881               1.282                        0.934                    1.220                     27.175
+claude-fable-5.1-cc      29            64.444       49.836       76.781          81.352               2.805                        1.328                    2.677                     52.647
+    deepseek-v4-pro      28            62.222       47.630       74.892         138.297               4.939                        3.406                    2.525                     31.039
+            kimi-k3      27            60.000       45.452       72.975         370.883              13.736                        7.765                    8.957                     43.469
+  deepseek-v4-flash      24            53.333       39.077       67.065          30.402               1.267                        0.659                    0.695                     47.990
+        qwen3.8-27b      23            51.111       37.004       65.043          76.811               3.340                        1.653                    1.763                     50.494
+      glm-5.3-flash      22            48.889       34.957       62.996          13.828               0.629                        0.326                    0.290                     48.176
+          kimi-k2.7      19            42.222       28.968       56.699         148.177               7.799                        3.375                    3.233                     56.727
+            glm-5.3      18            40.000       27.025       54.548         114.325               6.351                        2.842                    2.340                     55.252
+  qwen3.5-397b-a17b      17            37.778       25.108       52.370         101.238               5.955                        2.336                    2.197                     60.771
+    qwen3.5-35b-a3b      11            24.444       14.235       38.674          41.720               3.793                        0.833                    0.958                     78.043
+    qwen3.6-35b-a3b       9            20.000       10.896       33.823          64.139               7.127                        1.343                    1.446                     81.153
+        gemma-4-31b       9            20.000       10.896       33.823          10.377               1.153                        0.236                    0.229                     79.497
+   nemotron-3-ultra       9            20.000       10.896       33.823         113.776              12.642                        2.555                    2.522                     79.786
+         minimax-m3       6            13.333        6.257       26.178          29.244               4.874                        0.830                    0.622                     82.968
+  gpt-oss-120b-high       5            11.111        4.840       23.499          25.165               5.033                        0.531                    0.563                     89.448
+nemotron-3-super-v3       3             6.667        2.293       17.857          14.036               4.679                        0.311                    0.312                     93.342
+   qwen3.5-9b-local       3             6.667        2.293       17.857          14.491               4.830                        0.371                    0.319                     92.323
+
+Pareto-efficient configurations:
+qwen3.8-flash-next
+
+Outcome counts:
+outcome              failed_empty_patch  failed_step_limit  failed_tests  failed_time_limit  resolved
+model                                                                                                
+claude-fable-5.1-cc                   0                  0            15                  1        29
+claude-opus-5.5-cc                    0                  0            10                  0        35
+deepseek-v4-flash                     6                  3            12                  0        24
+deepseek-v4-pro                       2                  2            13                  0        28
+gemma-4-31b                           1                 17            18                  0         9
+glm-5.3                               9                  8            10                  0        18
+glm-5.3-flash                         8                 10             5                  0        22
+gpt-oss-120b-high                    11                 18             9                  2         5
+kimi-k2.7                             1                 16             9                  0        19
+kimi-k3                               3                  7             8                  0        27
+minimax-m3                           17                 15             6                  1         6
+nemotron-3-super-v3                   5                 28             9                  0         3
+nemotron-3-ultra                      2                 30             4                  0         9
+qwen3.5-35b-a3b                       0                 16            18                  0        11
+qwen3.5-397b-a17b                     0                 13            15                  0        17
+qwen3.5-9b-local                      6                 15            19                  2         3
+qwen3.6-35b-a3b                       1                 16            19                  0         9
+qwen3.8-27b                           0                  5            16                  1        23
+qwen3.8-flash-next                    2                  3             3                  0        37
+
+Head-to-head: qwen3.8-flash-next vs claude-opus-5.5-cc
+Resolution: 82.2% vs 77.8%
+Cost per solve: $0.418 vs $1.282
+Opus/Qwen cost-per-solve ratio: 3.07x
+Qwen solved only: 9 | Opus solved only: 7
+Both solved: 28 | Neither solved: 1
+Paired bootstrap 95% CI for resolution difference: [-13.3, +22.2] percentage points
