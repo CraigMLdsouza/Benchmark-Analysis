@@ -34,10 +34,14 @@
 7. **No new evaluations:** This project uses public leaderboard metrics only. No models were run.
 
 ## Reproduction
-Requirements: Python 3, pandas, matplotlib, numpy.
+Requirements: Python 3, pandas, and matplotlib.
 
 From this directory:
 ```bash
+python -m pip install pandas matplotlib
 python chart.py
 ```
-`analysis.csv` is reproducible from `terminal_bench_data.csv` with the calculations above. `chart.py` regenerates the chart from `analysis.csv` and the raw leaderboard CSV. No API keys or model evaluation runs are required.
+`chart.py` regenerates `chart.png` from the checked-in `analysis.csv`. The
+underlying transcribed leaderboard rows are not included as a separate raw-data
+file, so this repository does not independently regenerate `analysis.csv`.
+No API keys or model evaluation runs are required.

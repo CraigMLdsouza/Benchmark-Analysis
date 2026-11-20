@@ -46,4 +46,7 @@ Equivalent resolved-task difference = 268 − 168 = 100 tasks out of 500.
 - `scaffold_comparison.csv`: chart-ready comparison
 - `scaffold_gap_summary.csv`: summary statistics
 - `chart.png`: horizontal bar chart
-- `linkedin_post.txt`: draft post under 150 words
+
+The repository does not include a social-post draft. Use the recommended public
+wording above as the source for any external summary, preserving the caveat that
+the comparison is not controlled.

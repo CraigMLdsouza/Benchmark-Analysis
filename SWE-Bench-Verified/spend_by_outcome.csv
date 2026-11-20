@@ -1,0 +1,6 @@
+outcome,runs,runs_pct,spend_usd,spend_pct,avg_cost_per_run_usd
+resolved,334,39.064,661.376,45.656,1.98
+failed_tests,218,25.497,272.055,18.78,1.248
+failed_step_limit,222,25.965,453.091,31.278,2.041
+failed_empty_patch,74,8.655,40.1,2.768,0.542
+failed_time_limit,7,0.819,21.984,1.518,3.141
